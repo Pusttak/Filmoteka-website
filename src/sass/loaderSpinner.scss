@@ -1,0 +1,30 @@
+.loader-wrapper {
+    // position: relative;
+    position: fixed;
+    left: 50%;
+    // top:180px;
+    // top: 25vh;
+    top: 50vh;
+
+    // transform: translateX(50vw);
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1px;
+  }
+  
+  .loader-el {
+    
+    position: absolute;
+    opacity: 1;
+    width: 1px;
+    height: 9vh;
+    margin-top: -12vh;
+    transform-origin: 50% 100%;
+    background: $main-title-color;
+  }
+  
+  .loader-hidden {
+    display: none;
+  }

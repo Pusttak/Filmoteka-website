@@ -1,0 +1,46 @@
+.anime-wrap {
+  position: absolute;
+  transform: scale(0.1) translate(565px, 0);
+  z-index: 1;
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  
+ }
+
+.anime {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  opacity: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  mix-blend-mode: lighten;
+      
+  // transition: width 250ms $timing-function, height 250ms $timing-function;
+  
+}
+
+.student {
+  transform: scale(1);
+  transition: transform 250ms $timing-function;
+}
+
+.anime:hover, .anime:focus {
+  .student:hover, .student:focus {
+    transform: scale(1.3);
+  }
+  // width: 42px;
+  // height: 42px;
+}
+
+
+.anime-pointer-off {
+  outline: none;
+  pointer-events: none; 
+  
+}
+.anime-pointer-on {
+  pointer-events: auto; 
+}
+

@@ -1,0 +1,58 @@
+
+.footer-wrap {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $footer-background-color;
+    color: $secondary-title-color;
+
+    @media screen and (min-width: 480px) {
+        
+    }
+
+    @media screen and (min-width: 768px) {
+        height: 79px;
+        flex-direction: row;
+    }
+
+    @media screen and (min-width: 1280px) {
+        height: 77px;
+        
+    }
+}
+
+body.dark-theme {
+
+    .footer-wrap {
+        background-color: $secondary-title-color;
+        color: $footer-background-color;
+    }
+}
+
+
+
+.footer-developed {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+    }
+}
+
+.footer-heart-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-team-popup {
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+
+
+
+
