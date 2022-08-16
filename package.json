@@ -1,22 +1,22 @@
 {
-  "name": "filmoteka",
+  "name": "filmoteka-website",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://rostykwave.github.io/Filmoteka",
+  "homepage": "https://github.com/Pusttak/Filmoteka-website.git",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Filmoteka/"
+    "build": "parcel build src/*.html --public-url /Filmoteka-website/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rostykwave/Filmoteka.git"
+    "url": "git+https://github.com/Pusttak/Filmoteka-website.git"
   },
   "keywords": [],
-  "author": "Rostyslav Kovalchuk <rostykwave@gmail.com>",
+  "author": "Pusttak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rostykwave/Filmoteka/issues"
+    "url": "https://github.com/Pusttak/Filmoteka/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
